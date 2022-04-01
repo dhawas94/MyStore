@@ -6,10 +6,11 @@
     <classes>
       <class name="com.mystore.testcases.IndexPageTest">
         <methods>
+          <include name="afterSuite"/>
           <include name="launchApp"/>
+          <include name="verifyLogo"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
-          <include name="verifyTitle"/>
           <include name="loadConfig"/>
         </methods>
       </class> <!-- com.mystore.testcases.IndexPageTest -->

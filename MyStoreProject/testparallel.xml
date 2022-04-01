@@ -8,7 +8,7 @@
     </classes>
   </test> 
    <test  name="FireFoxTest">
-  <parameter name="browser" value="FireFox"/>
+  <parameter name="browser" value="IE"/>
     <classes>
       <class name="com.mystore.testcases.IndexPageTest"/>
     </classes>

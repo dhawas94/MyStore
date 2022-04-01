@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-17T22:13:08 IST" name="Suite" finished-at="2022-03-17T22:13:59 IST" duration-ms="50374">
+  <suite started-at="2022-03-23T16:37:54 IST" name="CrossBrowser" finished-at="2022-03-23T16:39:33 IST" duration-ms="99834">
     <groups>
-      <group name="Sanity">
-        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
-      </group> <!-- Sanity -->
       <group name="Smoke">
-        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@3972a855]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@3972a855]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-03-17T22:13:08 IST" name="Test" finished-at="2022-03-17T22:13:59 IST" duration-ms="50374">
-      <class name="com.mystore.testcases.LoginPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:08 IST" name="beforeSuite" finished-at="2022-03-17T22:13:09 IST" duration-ms="464" status="PASS">
+    <test started-at="2022-03-23T16:37:54 IST" name="ChromeTest" finished-at="2022-03-23T16:39:33 IST" duration-ms="99834">
+      <class name="com.mystore.testcases.IndexPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:37:54 IST" name="beforeSuite" finished-at="2022-03-23T16:37:54 IST" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:09 IST" name="loadConfig" finished-at="2022-03-17T22:13:09 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:37:54 IST" name="loadConfig" finished-at="2022-03-23T16:37:54 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:10 IST" name="launchApp" finished-at="2022-03-17T22:13:21 IST" duration-ms="11443" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:37:54 IST" name="launchApp" finished-at="2022-03-23T16:38:29 IST" duration-ms="34553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,60 +32,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:21 IST" name="loginTest" data-provider="credentials" finished-at="2022-03-17T22:13:29 IST" duration-ms="7219" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin@xyz.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:29 IST" name="tearDown" finished-at="2022-03-17T22:13:29 IST" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:29 IST" name="launchApp" finished-at="2022-03-17T22:13:39 IST" duration-ms="10701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:39 IST" name="loginTest" data-provider="credentials" finished-at="2022-03-17T22:13:57 IST" duration-ms="17703" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:38:29 IST" name="verifyLogo" finished-at="2022-03-23T16:39:05 IST" duration-ms="36134" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[test case sucssesfully passed expected [true] but found [false]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: test case sucssesfully passed expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
-at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:36)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.mystore.testcases.IndexPageTest.verifyLogo(IndexPageTest.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -102,33 +60,47 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:58 IST" name="tearDown" finished-at="2022-03-17T22:13:58 IST" duration-ms="240" status="PASS">
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:39:05 IST" name="tearDown" finished-at="2022-03-23T16:39:05 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@68e965f5]" started-at="2022-03-17T22:13:58 IST" name="afterSuite" finished-at="2022-03-17T22:13:59 IST" duration-ms="966" status="PASS">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:39:05 IST" name="launchApp" finished-at="2022-03-23T16:39:33 IST" duration-ms="27705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:39:33 IST" name="verifyTitle" finished-at="2022-03-23T16:39:33 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:39:33 IST" name="tearDown" finished-at="2022-03-23T16:39:33 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.IndexPageTest@41c2284a]" started-at="2022-03-23T16:39:33 IST" name="afterSuite" finished-at="2022-03-23T16:39:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.mystore.testcases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossBrowser -->
 </testng-results>
